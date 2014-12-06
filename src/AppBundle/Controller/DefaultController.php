@@ -37,7 +37,8 @@ class DefaultController extends Controller {
         $directorRepo = $em->getRepository('AppBundle:Director');
         $studioRepo = $em->getRepository('AppBundle:Studio');
         
-        $apiKey = $this->container->getParameter('api_key');
+//        $apiKey = $this->container->getParameter('api_key');
+        $apiKey = "55c4wwmmfea8n9sg2faqqjd6";
         $pageLimit = "&page_limit=1";
         $url = "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey="
                 . $apiKey . "&q=";
