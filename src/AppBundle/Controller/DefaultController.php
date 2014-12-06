@@ -8,20 +8,26 @@ use AppBundle\Entity\Genre;
 use AppBundle\Entity\Movie;
 use AppBundle\Entity\Studio;
 use DateTime;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class DefaultController extends Controller {
 
     /**
      * @Route("/", name="homepage")
+     * @Method("GET")
+     * @Template()
      */
     public function indexAction() {
-        $fh = fopen('../app/csvDumps/movies1.csv', 'r');
+        $fh = fopen('../app/csvDumps/movies2.csv', 'r');
         
         self::extractData($fh);
         
-        return $this->render('default/index.html.twig');
+        return array(
+            
+        );
     }
     
     /**
