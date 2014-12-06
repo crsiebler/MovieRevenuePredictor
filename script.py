@@ -21,6 +21,3 @@ for movie in movies:
 	print "Average: " + str(average)
 	print "Predicted Revenue: " + str((avgRevenue * average)/100)
 	print "\n"
-	
-	
-
