@@ -1,0 +1,244 @@
+The Captive (2014)			{ID: 771379171	Rating: R	Revenue: $0	Critic Rating: 36	Audience Rating: 86}
+		Estimate: $19,469,526
+
+		Similar Movies
+		==============
+		Gone Girl (2014)									{Similarity: 4	Revenue: $37,513,109}
+		Beverly Hills Cop (1984)							{Similarity: 4	Revenue: $15,214,805}
+		Man on Fire (2004)									{Similarity: 4	Revenue: $22,751,490}
+		The Equalizer (2014)								{Similarity: 4	Revenue: $34,137,828}
+		The Girl with the Dragon Tattoo (2011) (2011)		{Similarity: 4	Revenue: $12,768,604}
+		Blade: Trinity (2004)								{Similarity: 4	Revenue: $16,061,271}
+		The Butterfly Effect (2004)							{Similarity: 4	Revenue: $17,065,227}
+		A Few Good Men (1992)								{Similarity: 4	Revenue: $15,517,468}
+		Vanilla Sky (2001)									{Similarity: 4	Revenue: $25,015,518}
+		Proof of Life (2000)								{Similarity: 4	Revenue: $10,207,869}
+		The November Man (2014)								{Similarity: 4	Revenue: $7,911,597}
+
+
+
+Exodus: Gods and Kings (2014)			{ID: 771356224	Rating: PG-13	Revenue: $0	Critic Rating: 41	Audience Rating: 97}
+		Estimate: $30,813,292
+
+		Similar Movies
+		==============
+		The Lord of the Rings: The Fellowship of the Ring (2001)		{Similarity: 5	Revenue: $47,211,490}
+		Anna and the King (1999)										{Similarity: 5	Revenue: $5,223,416}
+		Kingdom of Heaven (2005)										{Similarity: 5	Revenue: $19,635,996}
+		The Lord of the Rings: The Two Towers (2002)					{Similarity: 5	Revenue: $62,007,528}
+		The Giver (2014)												{Similarity: 4	Revenue: $12,305,016}
+		Son of God (2014)												{Similarity: 4	Revenue: $25,601,865}
+		The Fault in our Stars (2014)									{Similarity: 4	Revenue: $48,002,523}
+		My Super Ex-Girlfriend (2006)									{Similarity: 4	Revenue: $8,603,460}
+		If I Stay (2014)												{Similarity: 4	Revenue: $15,679,190}
+		X-Men: Days of Future Past (2014)								{Similarity: 4	Revenue: $90,823,660}
+		Everybody's Fine (2009)											{Similarity: 4	Revenue: $3,852,068}
+
+
+
+Inherent Vice (2014)			{ID: 771325708	Rating: R	Revenue: $0	Critic Rating: 71	Audience Rating: 94}
+		Estimate: $22,338,737
+
+		Similar Movies
+		==============
+		V for Vendetta (2006)							{Similarity: 6	Revenue: $25,642,340}
+		The Green Mile (1999)							{Similarity: 6	Revenue: $18,017,152}
+		Training Day (2001)								{Similarity: 6	Revenue: $22,550,788}
+		Argo (2012)										{Similarity: 5	Revenue: $19,458,109}
+		The Departed (2006)								{Similarity: 5	Revenue: $26,887,467}
+		A Few Good Men (1992)							{Similarity: 5	Revenue: $15,517,468}
+		Proof of Life (2000)							{Similarity: 5	Revenue: $10,207,869}
+		Sleepers (1996)									{Similarity: 5	Revenue: $12,305,745}
+		Gone Girl (2014)								{Similarity: 5	Revenue: $37,513,109}
+		Any Given Sunday (1999)							{Similarity: 4	Revenue: $13,584,625}
+		Terminator 3: Rise of the Machines (2003)		{Similarity: 4	Revenue: $44,041,440}
+
+
+
+Top Five (2014)			{ID: 771387806	Rating: R	Revenue: $0	Critic Rating: 87	Audience Rating: 93}
+		Estimate: $18,610,838
+
+		Similar Movies
+		==============
+		The Original Kings of Comedy (2000)		{Similarity: 5	Revenue: $11,053,832}
+		Beverly Hills Cop (1984)				{Similarity: 5	Revenue: $15,214,805}
+		The Fighter (2010)						{Similarity: 5	Revenue: $12,135,468}
+		22 Jump Street (2014)					{Similarity: 4	Revenue: $57,071,445}
+		Kill Bill Vol. 2 (2004)					{Similarity: 4	Revenue: $25,104,949}
+		Hot Tub Time Machine (2010)				{Similarity: 4	Revenue: $14,020,502}
+		Psycho (1998) (1998)					{Similarity: 4	Revenue: $10,031,850}
+		Kung Fu Hustle (2005)					{Similarity: 4	Revenue: $6,749,572}
+		Django Unchained (2012)					{Similarity: 4	Revenue: $30,122,888}
+		Jerry Maguire (1996)					{Similarity: 4	Revenue: $17,084,296}
+		Blues Brothers 2000 (1998)				{Similarity: 4	Revenue: $6,129,615}
+
+
+
+The Color of Time (2014)			{ID: 771351199	Rating: R	Revenue: $0	Critic Rating: -1	Audience Rating: 78}
+		Estimate: $17,803,594
+
+		Similar Movies
+		==============
+		Zero Dark Thirty (2013)				{Similarity: 4	Revenue: $24,438,936}
+		The Wolf of Wall Street (2013)		{Similarity: 4	Revenue: $18,361,578}
+		The Talented Mr. Ripley (1999)		{Similarity: 4	Revenue: $12,738,237}
+		The Judge (2014)					{Similarity: 4	Revenue: $13,116,226}
+		The Judge (2014)					{Similarity: 4	Revenue: $13,116,226}
+		Vanilla Sky (2001)					{Similarity: 4	Revenue: $25,015,518}
+		American Hustle (2013)				{Similarity: 4	Revenue: $19,106,933}
+		The Last Samurai (2003)				{Similarity: 4	Revenue: $24,271,354}
+		Apocalypto (2006)					{Similarity: 4	Revenue: $15,005,604}
+		Any Given Sunday (1999)				{Similarity: 4	Revenue: $13,584,625}
+		Jerry Maguire (1996)				{Similarity: 4	Revenue: $17,084,296}
+
+
+
+Expelled (2014)			{ID: 771402799	Rating: PG-13	Revenue: $0	Critic Rating: -1	Audience Rating: 93}
+		Estimate: $27,833,043
+
+		Similar Movies
+		==============
+		Juno (2007)										{Similarity: 4	Revenue: $10,634,576}
+		Forrest Gump (1994)								{Similarity: 3	Revenue: $24,450,602}
+		Tyler Perry's A Madea Christmas (2013)			{Similarity: 3	Revenue: $16,007,634}
+		Little Fockers (2010)							{Similarity: 3	Revenue: $30,833,665}
+		Maid in Manhattan (2002)						{Similarity: 3	Revenue: $18,711,407}
+		Captain America: The Winter Soldier (2014)		{Similarity: 3	Revenue: $95,023,721}
+		The Family Stone (2005)							{Similarity: 3	Revenue: $12,521,027}
+		The Guilt Trip (2012)							{Similarity: 3	Revenue: $5,290,629}
+		Dawn of the Planet of the Apes (2014)			{Similarity: 3	Revenue: $72,611,427}
+		Playing for Keeps (2012)						{Similarity: 3	Revenue: $5,750,288}
+		Two Weeks Notice (2002)							{Similarity: 3	Revenue: $14,328,494}
+
+
+
+The Hobbit: The Battle of The Five Armies (2014)			{ID: 771181360	Rating: PG-13	Revenue: $0	Critic Rating: 74	Audience Rating: 99}
+		Estimate: $71,117,734
+
+		Similar Movies
+		==============
+		The Hobbit: The Desolation of Smaug (2013)						{Similarity: 9	Revenue: $73,645,197}
+		The Lord of the Rings: The Fellowship of the Ring (2001)		{Similarity: 8	Revenue: $47,211,490}
+		The Lord of the Rings: The Two Towers (2002)					{Similarity: 8	Revenue: $62,007,528}
+		The Hobbit: An Unexpected Journey (2012)						{Similarity: 8	Revenue: $84,617,303}
+		The Lord of the Rings: The Return of the King (2003)			{Similarity: 7	Revenue: $72,629,713}
+		Interstellar (2014)												{Similarity: 5	Revenue: $47,510,360}
+		I Am Legend (2007)												{Similarity: 5	Revenue: $77,211,321}
+		Guardians of the Galaxy (2014)									{Similarity: 5	Revenue: $94,320,883}
+		Godzilla (2014) (2014)											{Similarity: 4	Revenue: $93,188,384}
+		Jack the Giant Slayer (2013)									{Similarity: 4	Revenue: $27,202,226}
+		X-Men: The Last Stand (2006)									{Similarity: 4	Revenue: $102,750,665}
+
+
+
+Night at the Museum: Secret of the Tomb (2014)			{ID: 771349839	Rating: PG	Revenue: $0	Critic Rating: -1	Audience Rating: 97}
+		Estimate: $27,700,939
+
+		Similar Movies
+		==============
+		Night at the Museum (2006)											{Similarity: 10	Revenue: $30,433,781}
+		Night at the Museum: Battle of the Smithsonian (2009)				{Similarity: 7	Revenue: $54,173,286}
+		The Secret Life of Walter Mitty (2013)								{Similarity: 6	Revenue: $12,765,508}
+		Cheaper by the Dozen (2003)											{Similarity: 5	Revenue: $27,557,647}
+		Mr. Peabody & Sherman (2014)										{Similarity: 5	Revenue: $32,207,057}
+		Jumanji (1995)														{Similarity: 5	Revenue: $11,084,370}
+		Gulliver's Travels (2010)											{Similarity: 5	Revenue: $6,307,691}
+		Garfield: The Movie (2004)											{Similarity: 4	Revenue: $21,727,611}
+		Ice Age: The Meltdown (2006)										{Similarity: 4	Revenue: $68,033,544}
+		The Chronicles of Narnia: The Voyage of the Dawn Treader (2010)		{Similarity: 4	Revenue: $24,005,069}
+		RV (2006)															{Similarity: 4	Revenue: $16,414,767}
+
+
+
+Annie (2014)			{ID: 771229367	Rating: PG	Revenue: $0	Critic Rating: -1	Audience Rating: 88}
+		Estimate: $21,609,095
+
+		Similar Movies
+		==============
+		The Prince of Egypt (1998)				{Similarity: 5	Revenue: $14,524,321}
+		The Prince of Egypt (1998)				{Similarity: 5	Revenue: $14,524,321}
+		Django Unchained (2012)					{Similarity: 4	Revenue: $30,122,888}
+		Dolphin Tale 2 (2014)					{Similarity: 4	Revenue: $15,873,397}
+		Any Given Sunday (1999)					{Similarity: 4	Revenue: $13,584,625}
+		The Lion King (in 3D) (2011)			{Similarity: 4	Revenue: $30,151,614}
+		Beauty and the Beast (3D) (2012)		{Similarity: 4	Revenue: $17,751,905}
+		Dolphin Tale 2 (2014)					{Similarity: 4	Revenue: $15,873,397}
+		How to Train Your Dragon 2 (2014)		{Similarity: 4	Revenue: $49,451,322}
+		Fury (2014) (2014)						{Similarity: 4	Revenue: $23,702,421}
+		Secondhand Lions (2003)					{Similarity: 4	Revenue: $12,139,832}
+
+
+
+Mr. Turner (2014)			{ID: 771373229	Rating: R	Revenue: $0	Critic Rating: 96	Audience Rating: 90}
+		Estimate: $20,974,324
+
+		Similar Movies
+		==============
+		Turner & Hooch (1989)							{Similarity: 11	Revenue: $12,211,042}
+		Nightcrawler (2014)								{Similarity: 5	Revenue: $10,441,000}
+		The Fighter (2010)								{Similarity: 5	Revenue: $12,135,468}
+		Traffic (2001)									{Similarity: 4	Revenue: $15,517,549}
+		Dawn of the Planet of the Apes (2014)			{Similarity: 4	Revenue: $72,611,427}
+		The Departed (2006)								{Similarity: 4	Revenue: $26,887,467}
+		The Girl with the Dragon Tattoo (2011) (2011)	{Similarity: 4	Revenue: $12,768,604}
+		Kung Fu Hustle (2005)							{Similarity: 4	Revenue: $6,749,572}
+		The Last Samurai (2003)							{Similarity: 4	Revenue: $24,271,354}
+		American Hustle (2013)							{Similarity: 4	Revenue: $19,106,933}
+		The Green Mile (1999)							{Similarity: 4	Revenue: $18,017,152}
+
+
+
+The Gambler (2014)			{ID: 771385608	Rating: R	Revenue: $0	Critic Rating: 55	Audience Rating: 94}
+		Estimate: $17,847,472
+
+		Similar Movies
+		==============
+		The Fighter (2010)						{Similarity: 6	Revenue: $12,135,468}
+		Payback (1999)							{Similarity: 5	Revenue: $21,221,526}
+		Four Brothers (2005)					{Similarity: 5	Revenue: $21,176,925}
+		Psycho (1998) (1998)					{Similarity: 5	Revenue: $10,031,850}
+		Jack Ryan: Shadow Recruit (2014)		{Similarity: 5	Revenue: $15,451,981}
+		A Few Good Men (1992)					{Similarity: 5	Revenue: $15,517,468}
+		Jack Ryan: Shadow Recruit (2014)		{Similarity: 5	Revenue: $15,451,981}
+		Vanilla Sky (2001)						{Similarity: 5	Revenue: $25,015,518}
+		Disclosure (1994)						{Similarity: 5	Revenue: $10,068,126}
+		The Talented Mr. Ripley (1999)			{Similarity: 5	Revenue: $12,738,237}
+		Gone Girl (2014)						{Similarity: 5	Revenue: $37,513,109}
+
+
+
+Winter Sleep (2014)			{ID: 771379135	Rating: Unrated	Revenue: $0	Critic Rating: 88	Audience Rating: 79}
+		Estimate: $17,005,237
+
+		Similar Movies
+		==============
+		American Hustle (2013)					{Similarity: 4	Revenue: $19,106,933}
+		Jerry Maguire (1996)					{Similarity: 4	Revenue: $17,084,296}
+		Cast Away (2000)						{Similarity: 4	Revenue: $28,883,406}
+		The Talented Mr. Ripley (1999)			{Similarity: 4	Revenue: $12,738,237}
+		Insomnia (2002)							{Similarity: 3	Revenue: $20,930,169}
+		I Love You, Man (2009)					{Similarity: 3	Revenue: $17,810,270}
+		When the Game Stands Tall (2014)		{Similarity: 3	Revenue: $8,381,509}
+		The Nativity Story (2006)				{Similarity: 3	Revenue: $7,849,304}
+		Stepmom (1998)							{Similarity: 3	Revenue: $19,142,440}
+		The Nativity Story (2006)				{Similarity: 3	Revenue: $7,849,304}
+		Les Miserables (2012) (2012)			{Similarity: 3	Revenue: $27,281,735}
+
+
+
+Song Of The Sea (2014)			{ID: 771380456	Rating: PG	Revenue: $0	Critic Rating: 100	Audience Rating: 85}
+		Estimate: $37,875,516
+
+		Similar Movies
+		==============
+		The Iron Giant (1999)					{Similarity: 6	Revenue: $5,732,614}
+		Monsters, Inc. (3D) (2012)				{Similarity: 6	Revenue: $4,774,686}
+		The LEGO Movie (2014)					{Similarity: 6	Revenue: $69,050,279}
+		Monsters, Inc. (3D) (2012)				{Similarity: 6	Revenue: $4,774,686}
+		Up (2009)								{Similarity: 5	Revenue: $68,108,790}
+		The Boxtrolls (2014)					{Similarity: 5	Revenue: $17,275,239}
+		The Boxtrolls (2014)					{Similarity: 5	Revenue: $17,275,239}
+		Toy Story / Toy Story 2 (3D) (2009)		{Similarity: 5	Revenue: $12,491,789}
+		Toy Story 2 (1999)						{Similarity: 5	Revenue: $57,388,839}
+		Toy Story 3 (2010)						{Similarity: 5	Revenue: $110,307,189}
+		How to Train Your Dragon 2 (2014)		{Similarity: 5	Revenue: $49,451,322}
