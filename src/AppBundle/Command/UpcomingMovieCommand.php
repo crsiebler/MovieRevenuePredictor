@@ -17,6 +17,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class UpcomingMovieCommand extends ContainerAwareCommand {
 
+    // K Nearest neighbor value
     const K_NUM = 11;
 
     public function configure() {
@@ -36,23 +37,30 @@ class UpcomingMovieCommand extends ContainerAwareCommand {
 //        $apiKey = $this->container->getParameter('api_key');
         $apiKey = "55c4wwmmfea8n9sg2faqqjd6";
         
+        // Initialize the RESTful API call for upcoming movies
         $url = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/upcoming.json?page_limit=16&page=1&country=us&apikey=" . $apiKey;
         
         $upcomingMovies = array();
         
+        // Get all previous movie data from the database
         $movies = $movieRepo->findAll();
         
+        // Query the API for upcoming movies
         $data = json_decode(file_get_contents($url), true);
         
+        // Make sure some movies were returned
         if ($data['total'] > 0) {
+            // Loop through each movie
             for ($i = 0; $i < $data['total']; ++$i) {
                 if (array_key_exists('id', $data['movies'][$i])) {
                     $movie = new Movie();
                     
+                    // Initialize RESTful API URL for movie details
                     $id = $data['movies'][$i]['id'];
                     $url2 = "http://api.rottentomatoes.com/api/public/v1.0/movies/"
                                 . $id . ".json?apikey=" . $apiKey;
                     
+                    // Query API for movie details
                     $jsonData = json_decode(file_get_contents($url2), true);
 
                     $movie->setApiId($id);
@@ -148,22 +156,28 @@ class UpcomingMovieCommand extends ContainerAwareCommand {
                         $movie->setStudio($studio);
                     }
                     
+                    // Initialize the similarity variables
                     $similarMovies = array();
                     $revenue = 0;
 
+                    // Calculate the similarity for all movies
                     foreach ($movies as $m) {
                         $m->similarity($movie);
                     }
 
+                    // Sort the movies by the highest similarity
                     usort($movies, function ($a, $b) {
                             return $b->getSimilarity() - $a->getSimilarity();
                     });
 
+                    // Loop through the K top similar movies
                     for ($j = 0; $j < self::K_NUM; ++$j) {
+                        // Add to the array and total revenue
                         $similarMovies[] = $movies[$j];
                         $revenue += $movies[$j]->getOpeningRevenue();
                     }
                     
+                    // Set similar movies and average revenue
                     $movie->setSimilarMovies($similarMovies)
                             ->setEstimate(round($revenue / self::K_NUM));
                     

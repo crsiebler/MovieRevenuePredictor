@@ -63,42 +63,56 @@ class MovieFixtures extends AbstractFixture implements OrderedFixtureInterface, 
      * @param ObjectManager $manager
      */
     private function extractData($fh, $manager) {
+        // Grab the entity manager
         $em = $this->container->get('doctrine')->getManager();
         
+        // Grab the repository for the entities
         $genreRepo = $em->getRepository('AppBundle:Genre');
         $actorRepo = $em->getRepository('AppBundle:Actor');
         $directorRepo = $em->getRepository('AppBundle:Director');
         $studioRepo = $em->getRepository('AppBundle:Studio');
         
+        // Declare the API key and URL for RESTful service
         $apiKey = $this->container->getParameter('api_key');
         $pageLimit = "&page_limit=1";
         $url = "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey="
                 . $apiKey . "&q=";
         
+        // Loop through the CSV data
         while (($csvData = fgetcsv($fh)) !== false) {
+            // Initialize a new Movie
             $movie = new Movie();
             
+            // Retrieve the CSV data for each movie
             $movie->setTitle($csvData[0])
                     ->setOpeningRevenue($csvData[1])
                     ->setReleaseDate(new DateTime($csvData[4]));
             
+            // Search API for the movie title
             $data = json_decode(file_get_contents($url . $movie->getApiTitle() . $pageLimit), true);
             
+            // Make sure the movie was found from the title search
             if ($data['total'] > 0) {
+                // Make sure the id for the movie is given
                 if (array_key_exists('id', $data['movies'][0])) {
+                    // Grab the ID from the movie results
                     $id = $data['movies'][0]['id'];
 
+                    // Specify the RESTful service to get detailed movie data
                     $url2 = "http://api.rottentomatoes.com/api/public/v1.0/movies/"
                             . $id . ".json?apikey=" . $apiKey;
 
+                    // Get JSON data from API
                     $jsonData = json_decode(file_get_contents($url2), true);
                     
                     $movie->setApiId($id);
 
+                    // Check for MPAA rating
                     if (array_key_exists('mpaa_rating', $jsonData)) {
                         $movie->setMpaaRating($jsonData['mpaa_rating']);
                     }
                     
+                    // Check for ratings
                     if (array_key_exists('ratings', $jsonData)) {
                         if (array_key_exists('critics_score', $jsonData['ratings'])) {
                             $movie->setCriticRating($jsonData['ratings']['critics_score']);
@@ -109,6 +123,7 @@ class MovieFixtures extends AbstractFixture implements OrderedFixtureInterface, 
                         }
                     }
 
+                    // Check for genres
                     if (array_key_exists('genres', $jsonData)) {
                         foreach ($jsonData['genres'] as $genreName) {
                             $genre = $genreRepo->findOneByName($genreName);
@@ -126,6 +141,7 @@ class MovieFixtures extends AbstractFixture implements OrderedFixtureInterface, 
                         }
                     }
 
+                    // Check for cast
                     if (array_key_exists('abridged_cast', $jsonData)) {
                         foreach ($jsonData['abridged_cast'] as $actorData) {
                             $actorName = $actorData['name'];
@@ -145,6 +161,7 @@ class MovieFixtures extends AbstractFixture implements OrderedFixtureInterface, 
                         }
                     }
 
+                    // Check for directors
                     if (array_key_exists('abridged_directors', $jsonData)) {
                         foreach ($jsonData['abridged_directors'] as $directorData) {
                             $directorName = $directorData['name'];
@@ -164,6 +181,7 @@ class MovieFixtures extends AbstractFixture implements OrderedFixtureInterface, 
                         }
                     }
 
+                    // Check for studio
                     if (array_key_exists('studio', $jsonData)) {
                         $studio = $studioRepo->findOneByName($jsonData['studio']);
 
@@ -179,6 +197,7 @@ class MovieFixtures extends AbstractFixture implements OrderedFixtureInterface, 
 
                     echo $movie;
 
+                    // Persist the movie to the database
                     $manager->persist($movie);
                     $manager->flush();
                 } else {
