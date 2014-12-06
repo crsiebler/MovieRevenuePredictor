@@ -1,0 +1,11 @@
+{% for movie in movies %}
+    {{ movie.title }}<br>
+    Release Date: {{ movie.releaseDate|date('Y-m-d') }}<br>
+    Estimate: {{ movie.estimate }}<br>
+    Similar Movies:<br>
+    {% for similar in movie.similarMovies %}
+        &nbsp&nbsp&nbsp&nbsp{{ similar.title }} - ${{ similar.openingRevenue|number_format(0) }}<br>
+    {% endfor %}
+    <br>
+    <br>
+{% endfor %}

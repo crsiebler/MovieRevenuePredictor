@@ -114,7 +114,9 @@ class Movie {
      */
     protected $studio;
     
+    private $estimate;
     private $similarity;
+    private $similarMovies;
 
     /**
      * Constructor
@@ -132,12 +134,35 @@ class Movie {
      */
     public function __toString() {
         return $this->title . " (" . $this->releaseDate->format('Y')
-                . ") - {ID: " . $this->getApiId()
+                . ")\t\t\t{ID: " . $this->getApiId()
                 . "\tRating: " . $this->mpaaRating
-                . "\tRevenue: $" . $this->openingRevenue
+                . "\tRevenue: $" . number_format($this->openingRevenue)
                 . "\tCritic Rating: " . $this->criticRating
                 . "\tAudience Rating: " . $this->audienceRating
                 . "}\n";
+    }
+    
+    /**
+     * Display the movie's estimate & similar movies
+     * 
+     * @return string
+     */
+    public function display() {
+        $string = $this->__toString();
+        
+        $string .= "\t\tEstimate: $" . number_format($this->estimate) . "\n\n"
+                . "\t\tSimilar Movies\n"
+                . "\t\t==============\n";
+        
+        foreach ($this->similarMovies as $m) {
+            $string .= "\t\t" . $m->getTitle() ." (" . $m->getReleaseDate()->format('Y')
+                    . ")\t\t{Similarity: " . $m->getSimilarity()
+                    . "\tRevenue: $" . number_format($m->getOpeningRevenue()) . "}\n";
+        }
+        
+        $string .= "\n\n";
+        
+        return $string;
     }
     
     /**
@@ -161,7 +186,7 @@ class Movie {
         // Check the type of the parameter
         if ($movie instanceof Movie) {
             // Make sure the release date is set for both objects
-            if ($this->releaseDate != null && $movie->getReleaseDate != null) {
+            if ($this->releaseDate != null && $movie->getReleaseDate() != null) {
                 // Check if the month the movies are released is the same
                 if ($this->releaseDate->format('m') == $movie->getReleaseDate()->format('m')) {
                     $similarity++;
@@ -496,7 +521,28 @@ class Movie {
         
         return $this;
     }
-    
+
+    /**
+     * Get estimate
+     * 
+     * @return integer
+     */
+    public function getEstimate() {
+        return $this->estimate;
+    }
+
+    /**
+     * Set estimate
+     * 
+     * @param integer $estimate
+     * @return Movie
+     */
+    public function setEstimate($estimate) {
+        $this->estimate = $estimate;
+        
+        return $this;
+    }
+
     /**
      * Get similarity
      * 
@@ -514,6 +560,27 @@ class Movie {
      */
     public function setSimilarity($similarity) {
         $this->similarity = $similarity;
+        
+        return $this;
+    }
+    
+    /**
+     * Get similar movies
+     * 
+     * @return Movies[]
+     */
+    public function getSimilarMovies() {
+        return $this->similarMovies;
+    }
+
+    /**
+     * Set similar movies
+     * 
+     * @param Movies[] $similarMovies
+     * @return Movie
+     */
+    public function setSimilarMovies($similarMovies) {
+        $this->similarMovies = $similarMovies;
         
         return $this;
     }
