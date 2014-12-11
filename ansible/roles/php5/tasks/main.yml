@@ -1,0 +1,33 @@
+- name: Install php5
+  sudo: yes
+  apt: pkg=php5 state=latest
+
+- name: ensure timezone is set in apache2 php.ini
+  lineinfile: dest=/etc/php5/apache2/php.ini
+              regexp='date.timezone ='
+              line='date.timezone = {{ timezone }}'
+
+- name: set xdebug max_nesting_level
+  lineinfile: dest=/etc/php5/apache2/php.ini
+              regexp='xdebug.max_nesting_level ='
+              line='xdebug.max_nesting_level = {{ max_nesting_level }}'
+
+- name: set php memory limit
+  lineinfile: dest=/etc/php5/apache2/php.ini
+              regexp='memory_limit ='
+              line='memory_limit = {{ memory_limit }}'
+              
+- name: set display errors
+  lineinfile: dest=/etc/php5/apache2/php.ini
+              regexp='display_errors ='
+              line='display_errors = true'              
+
+- name: set startup display errors
+  lineinfile: dest=/etc/php5/apache2/php.ini
+              regexp='display_startup_errors ='
+              line='display_startup_errors = true' 
+              
+- name: set error reporting level to all
+  lineinfile: dest=/etc/php5/apache2/php.ini
+              regexp='error_reporting ='
+              line='error_reporting = E_ALL'

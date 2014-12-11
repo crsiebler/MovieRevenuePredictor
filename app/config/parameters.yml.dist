@@ -18,4 +18,4 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
-    api_key: 6nrewjpqr28vannvgcr8d89z
+    api_key: 
